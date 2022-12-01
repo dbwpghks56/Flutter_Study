@@ -86,6 +86,7 @@ class DatePick extends StatelessWidget {
                             "eventStart" : eventModel.eventStart.value.toIso8601String(),
                             "eventEnd" : eventModel.eventEnd.value.toIso8601String(),
                             "eventClear" : 0,
+                            "eventConfirm" : 0,
                             "users" : {
                               "id" : userService.user.value.id
                             }

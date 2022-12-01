@@ -162,6 +162,7 @@ class MyController extends GetxController {
         "eventClear" : eventModel.eventClear.value,
         "eventStart" : eventModel.eventStart.value.toIso8601String(),
         "eventEnd" : eventModel.eventEnd.value.toIso8601String(),
+        "eventConfirm" : 1,
         "users" : {
           "id" : userModel.user.value.id,
           "uuid" : userModel.user.value.email,
